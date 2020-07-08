@@ -48,6 +48,7 @@
 .container{
     margin-bottom: 70px;
 }
+
 .buy-courses-button{
     background-color: #21B573;
     padding: 7px;
@@ -71,4 +72,17 @@
 .card-footer{
     border: none;
     
+}
+.footer-list-item li{
+    list-style: none;
+    margin-bottom: 5px;
+
+}
+.footer-bottom{
+    margin: 30px;
+}
+.footer-bottom h6{
+    text-align: center;
+    font-size: 15px;
+    color: gray;
 }
