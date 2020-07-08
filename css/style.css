@@ -83,20 +83,21 @@ a.sign-in-button, .buttons{
     outline: none;
     font-size: 16px;
 }
-.buttons:hover,.sign-in-button:hover {
+.buttons:hover,.sign-in-button:hover, .teachers-buttons:hover {
     background-color: gray;
     transition: all .6s ease-in-out;
 }
-.buy-courses-button{
+
+.teachers-buttons{
     background-color: #2FA470;
     border-radius: 30px;
     padding: 10px 25px;
     text-decoration: none;
     color: #ffffff;
     border: none;
+    outline: none;
     font-size: 16px;
-   
-}
+} 
 .card-body a{
     text-decoration: none;
 }
@@ -108,8 +109,17 @@ a.sign-in-button, .buttons{
     box-shadow: 4px 7px 9px 0px #888888;
     border-radius: 10px
 }
+
 .news p{
     font-size: 15px;
+}
+.teachers img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border-radius: 75%;
+
 }
 .testimonial-heading h1{
     text-align: center;
@@ -123,11 +133,11 @@ a.sign-in-button, .buttons{
     border-radius: 50%;
     float:right;
 }
-.bg-color{
+.sub-bg-color{
     background-color: #F0FFF0;
 }
 .subcribe-half img{
-    width: 100px;
+    width: 200px;
     padding: 3px;
     
 }
