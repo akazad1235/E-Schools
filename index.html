@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
     <link href="css/style.css" rel="stylesheet">    
 </head>
 <body>
     
-
-    <div class="wrapper">
-        <header>
+        <header class="wrapper">
             <div class="container ">
                 <nav class="navbar navbar-expand-lg navbar-light ">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,73 +19,66 @@
                     </button>
                     <div class="collapse -auto navbar-collapse" id="navbarTogglerDemo01">
                       <a class="navbar-brand" href="#"><img class="logo" src="ICON/Logo.png" alt="image"></a>
-                      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                      <ul class="navbar-nav ml-auto mt-2 mt-lg-0 ">
                         <li class="nav-item active">
-                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                          <a class="nav-link" href="#books">Books <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Product</a>
+                          <a class="nav-link" href="#course">Courses</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#others">Others</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#blog">Blog</a>
                           </li>
-                          <li class="nav-item">
-                            <a class="nav-link signin-button text-white"  href="#">Sign In</a>
-                          </li>
-                        
+                            <a class="sign-in-button text-white"  href="#">Sign In</a>
                       </ul>
                       
                     </div>
                   </nav>
-            </div>
-        </header>
-        <section>
-            <div class="container">
-                <div class="row">
+            
+                <div class="row banner-area">
                     <div class="col-md-5 d-flex justify-content-between align-items-center ">
                         <div class="banner-half">
                             <h6 class="text-danger">are you ready to learn?</h6>
                             <h1 class="font-weight-bold">Learn With fun on <span class="text-success">any schedule</span></h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p>
-                            <a href=""  class="buy-button bg-success p-2 text-white">Get Started</a>
+                            <a href=""  class="buttons text-white">Get Started</a>
                         </div>
                     </div>
                     <div class="col-md-7">
                         <img class="img-fluid" src="Photos/Illustration.png" alt="banner">
                     </div>
                 </div>
-            </div>
-        </section>
-    </div>
+              </div>
+   </header>
     <section>
-        <div class="container">
+        <div class="container" id="books">
             <div class="row">
                 <div class="col-md-3" >
-                    <div class="justify-content-center align-content-center p-3 students-equipment">
+                    <div class="justify-content-center align-content-center p-3 students-books">
                         <img class="img-fluid" src="icon/book.png" alt="">
                         <h2>1500+ Topics</h2>
                         <h5>Learn Anythings</h5>
                     </div>
                 </div>
                 <div class="col-md-3 ">
-                <div class="justify-content-center align-content-center p-3 students-equipment">
+                <div class="justify-content-center align-content-center p-3 students-books">
                     <img class="img-fluid" src="icon/Student.png" alt="">
                     <h2 >1800+ Students</h2>
                     <h5>Learn Anythings</h5>
                 </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="justify-content-center align-content-center p-3 students-equipment">
+                    <div class="justify-content-center align-content-center p-3 students-books">
                     <img class="img-fluid" src="icon/Test.png" alt="">
                     <h2>9K+ Test Token</h2>
                     <h5>Learn Anythings</h5>
                     </div>
                 </div>
-                <div class="col-md-3 ">
-                    <div class="justify-content-center align-content-center p-3 students-equipment ">
+                <div class="col-md-3">
+                    <div class="justify-content-center align-content-center p-3 students-books ">
                         <img class="img-fluid" src="icon/Students.png" alt="">
                         <h2>2000+ Students</h2>
                         <h5>Learn Anythings</h5>
@@ -95,7 +88,7 @@
         </div>
     </section>
     <section>
-        <div class="container">
+        <div class="container" id="course">
           <h1 class="text-center mb-5 font-weight-bold">Online Courses</h1>
             <div class="card-deck">
                 <div class="card">
@@ -103,7 +96,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Modern Psychology</h5>
                     <p class="card-text">Desination</p>
-                    <a href="#" class="buy-courses-button text-white" >Buy Courses</a>
+                    <a href="#" class="buttons text-white" >Buy Courses</a>
                   </div>
                   <div class="card-footer">
                    <div class="d-flex  justify-content-between">
@@ -124,7 +117,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Modern Psychology</h5>
                     <p class="card-text">Desination</p>
-                    <a href="#"  class="buy-courses-button text-white" >Buy Courses</a>
+                    <a href="#"  class="buttons text-white" >Buy Courses</a>
                   </div>
                   <div class="card-footer">
                     <div class="d-flex  justify-content-between">
@@ -145,7 +138,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Modern Psychology</h5>
                     <p class="card-text">Desination</p>
-                    <a href="#" class="buy-courses-button text-white" >Buy Courses</a>
+                    <a href="#" class="buttons text-white" >Buy Courses</a>
                   </div>
                   <div class="card-footer">
                     <div class="d-flex  justify-content-between">
@@ -167,14 +160,14 @@
     <section>
       <div class="container">
         <h1 class="text-center mb-5 font-weight-bold">Latest News</h1>
-        <p class="text-center">Discourse assurance estimable applauded to so. Him everything melancholy uncommonly but solicitude inhabiting projection off. Connection stimulated estimating excellence an to impression.</p>
+        
             <div class="card-deck">
                 <div class="card">
-                  <img class="img-fluid p-3" src="photos/Morder psyc.png" class="card-img-top" alt="...">
-                  <div class="card-body">
+                  <img class="img-fluid p-3" src="photos/news/news-1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body news">
                     <h5 class="card-title">Modern Psychology</h5>
-                    <p class="card-text">Resembled at perpetual no believing is otherwise sportsman. Is do he dispatched cultivated travelling astonished.</p>
-                    <a href="#" class="buy-courses-button text-white" >Readmore</a>
+                    <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus obcaecati sed autem voluptates veritatis? Ratione?</p>
+                    <a href="#" class="buttons text-white" >Readmore</a>
                   </div>
                   <div class="card-footer">
                    <div class="d-flex  justify-content-between">
@@ -191,11 +184,11 @@
                   </div>
                 </div>
                 <div class="card">
-                  <img class="img-fluid p-3" src="Photos/Morder pychons.png" class="card-img-top" alt="...">
-                  <div class="card-body">
+                  <img class="img-fluid p-3" src="Photos/news/news-2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body news">
                     <h5 class="card-title">Modern Psychology</h5>
-                    <p class="card-text">Resembled at perpetual no believing is otherwise sportsman. Is do he dispatched cultivated travelling astonished.</p>
-                    <a href="#"  class="buy-courses-button text-white" >Readmore</a>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui maiores recusandae fuga adipisci. Tenetur, earum.</p>
+                    <a href="#"  class="buttons text-white" >Readmore</a>
                   </div>
                   <div class="card-footer">
                     <div class="d-flex  justify-content-between">
@@ -212,11 +205,11 @@
                   </div>
                 </div>
                 <div class="card">
-                  <img class="img-fluid p-3" src="Photos/Morder pyschology.png" class="card-img-top" alt="...">
-                  <div class="card-body">
+                  <img class="img-fluid p-3" src="Photos/news/news-3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body news">
                     <h5 class="card-title">Modern Psychology</h5>
-                    <p class="card-text">Resembled at perpetual no believing is otherwise sportsman. Is do he dispatched cultivated travelling astonished.</p>
-                    <a href="#" class="buy-courses-button text-white" >Readmore</a>
+                    <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, recusandae. Expedita fugiat neque commodi illum!</p>
+                    <a href="#" class="buttons text-white" >Readmore</a>
                   </div>
                   <div class="card-footer">
                     <div class="d-flex  justify-content-between">
@@ -240,7 +233,7 @@
         <div class="row">
           <div class="col-md-7">
             <div class="subcribe-half d-flex justify-content-between">
-              <img src="icon/msg3.png" alt="">
+              <img src="icon/msg-5.png" alt="">
               <div class="p-2">
                 <h2>Subscribe to <span class="text-success">our newsletter</span> </h2>
               <p>Prospect humoured mistress to by proposal marianne attended. Simplicity the far admiration preference everything.</p>

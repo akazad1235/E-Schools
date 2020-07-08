@@ -1,3 +1,9 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0px;
+    padding: 0px;
+}
 .wrapper{
     width: 100%;
     background-color: #F0FFF0;
@@ -7,6 +13,9 @@
 .logo{
     width: 198px;
     height: 59;
+}
+.banner-area{
+    padding: 70px 0;
 }
 .banner-half h6{
     
@@ -18,8 +27,8 @@
     text-decoration: none;
     width: 200px;
 }
-.buy-button{
-    border-radius: 20px;  
+.nav-link{
+    margin-right: 10px;
 }
 .signin-button{
     background-color: #21B573;
@@ -30,7 +39,7 @@
     width: 100px;
     text-align: center;
 }
-.students-equipment img{
+.students-books img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -39,33 +48,54 @@
     margin-bottom: 25px;
     
 }
-.students-equipment{
+.students-books{
     text-align: center;
     background-color: #F0FFF0 ;
     border-radius: 5px;
    
     
 }
-.students-equipment:hover{
+.students-books:hover{
     box-shadow: 10px 10px 8px #888888;
     cursor: pointer;
     background-color: #ffff;
 }
-.students-equipment h2{
-    font-size: 30px;
+.students-books h2{
+    font-size: 25px;
+}
+.students-books h5{
+    font-size: 15px;
+    margin-bottom: 26px;
 }
 .container{
     margin-bottom: 70px;
 }
-
+.sign-in-button{
+    padding: 10px;
+}
+a.sign-in-button, .buttons{
+    background-color: #2FA470;
+    border-radius: 30px;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.buttons:hover,.sign-in-button:hover {
+    background-color: gray;
+    transition: all .6s ease-in-out;
+}
 .buy-courses-button{
-    background-color: #21B573;
-    padding: 7px;
-    border-radius: 20px;
-    color: #fff;
-    display: block;
-    width: 150px;
-    text-align: center;
+    background-color: #2FA470;
+    border-radius: 30px;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+   
 }
 .card-body a{
     text-decoration: none;
@@ -77,6 +107,9 @@
     border: none;
     box-shadow: 4px 7px 9px 0px #888888;
     border-radius: 10px
+}
+.news p{
+    font-size: 15px;
 }
 .testimonial-heading h1{
     text-align: center;
@@ -119,12 +152,11 @@ input{
 .footer-list-item li{
     list-style: none;
     margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-.footer-bottom{
-    margin: 30px;
-}
 .footer-bottom h6{
+    margin-top: 30px;
     text-align: center;
     font-size: 15px;
     color: gray;
