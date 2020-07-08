@@ -1,6 +1,8 @@
 .wrapper{
     width: 100%;
     background-color: #F0FFF0;
+    height: auto;
+   
 }
 .logo{
     width: 198px;
@@ -8,4 +10,41 @@
 }
 .banner-half h6{
     
+}
+.banner-half p{
+    margin-bottom: 30px;
+}
+.banner-half a{
+    text-decoration: none;
+    width: 200px;
+}
+.buy-button{
+    border-radius: 20px;  
+}
+.students-equipment img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 70px;
+    margin-bottom: 25px;
+    
+}
+.students-equipment{
+    text-align: center;
+    background-color: #F0FFF0 ;
+    border-radius: 5px;
+   
+    
+}
+.students-equipment:hover{
+    box-shadow: 10px 10px 8px #888888;
+    cursor: pointer;
+    background-color: #ffff;
+}
+.students-equipment h2{
+    font-size: 30px;
+}
+.container{
+    margin-bottom: 70px;
 }
