@@ -69,6 +69,27 @@
     box-shadow: 4px 7px 9px 0px #888888;
     border-radius: 10px
 }
+.bg-color{
+    background-color: #F0FFF0;
+}
+.subcribe-half img{
+    width: 100px;
+    padding: 3px;
+    
+}
+input{
+    margin-bottom: 10px;
+}
+
+.send-email-button{
+    background-color: #21B573;
+    padding: 7px;
+    border-radius: 20px;
+    color: #fff;
+    display: block;
+    width: 150px;
+    text-align: center;
+}
 .card-footer{
     border: none;
     
