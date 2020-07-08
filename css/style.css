@@ -87,7 +87,9 @@ a.sign-in-button, .buttons{
     background-color: gray;
     transition: all .6s ease-in-out;
 }
-
+.news img{
+    border-radius: 10px;
+}
 
 .teachers-buttons{
     background-color: #2FA470;
