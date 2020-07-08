@@ -21,6 +21,15 @@
 .buy-button{
     border-radius: 20px;  
 }
+.signin-button{
+    background-color: #21B573;
+    padding: 7px;
+    border-radius: 20px;
+    color: #fff;
+    display: block;
+    width: 100px;
+    text-align: center;
+}
 .students-equipment img{
     display: block;
     margin-left: auto;
